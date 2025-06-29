@@ -34,7 +34,7 @@ except Exception as e:
 
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size = 1000,
-    chunk_overlap=200
+    chunk_overlap=220
 )
 
 pages_split = text_splitter.split_documents(pages)
